@@ -1,6 +1,6 @@
 -- The project is Optimizing Online Sports Retail Revenue
--- Exploring the product data of an online sportswear business with the ultimate aim of formulating strategies to boost its revenue.
--- A diverse range of data stored across multiple tables, including details about prices, discounts, revenue, ratings, reviews, product descriptions, and website traffic was handled.
+-- Investigating the product information of an online sportswear company with the primary goal of developing plans to increase its income.
+-- The handling involved a wide variety of data distributed over numerous tables, including information about pricing, discounts, revenue, ratings, reviews, product descriptions, and website traffic.
 -- Data was loaded to Mysql using Python script and it tried to answer the following questions.
 
 -- How do the price points of Nike and Adidas products differ?
