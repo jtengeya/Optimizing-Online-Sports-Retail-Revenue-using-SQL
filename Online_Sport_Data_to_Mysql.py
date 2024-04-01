@@ -10,7 +10,7 @@ conn_string = f'mysql+pymysql://{username}:{password}@{host}/'
 
 db = create_engine(conn_string)
 conn = db.connect()
-conn.execute(text("CREATE DATABASE IF NOT EXISTS Online_Sports_Retail"))
+conn.execute(text("CREATE DATABASE IF NOT EXISTS online_sports_retail"))
 conn.close()
 
 database = 'Online_Sports_Retail'
