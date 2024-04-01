@@ -19,6 +19,6 @@ db = create_engine(conn_string)
 conn = db.connect()
 files = ['brands_v2', 'finance', 'info_v2', 'reviews_v2', 'traffic_v3']
 for file in files:
-    df = pd.read_csv(f'C:\\Users\\Jackson Tengeya\\Desktop\\Doc\\Online_Sports_Retail\\{file}.csv')
+    df = pd.read_csv(f'C:\\Users\\Jackson Tengeya\\Desktop\\Online_Sports_Retail\\{file}.csv')
     df.to_sql(file, con=conn, if_exists='replace', index=False)
 conn.close()
