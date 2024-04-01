@@ -2,7 +2,7 @@
 # Sports Revenue Optimization
 
 This project investigates the product information of an online sportswear company with the primary goal of developing strategies to increase its income.
-The data, which includes details about pricing, discounts, revenue, ratings, reviews, product descriptions, and website traffic, is stored across multiple tables and was loaded into MySQL using a Python script on Online_Sport_Data_to_Mysql
+The data, which includes details about pricing, discounts, revenue, ratings, reviews, product descriptions, and website traffic, is stored across multiple tables and was loaded into MySQL using a Python script on Online_Sport_Data_to_Mysql.py
 
 The project aimed to answer numerous critical queries and examined a variety of SQL concepts including table joins, data aggregation, correlation analysis, and handling date and time data.
 The SQL steps used in this project are included in the Online_Sports_Retail.sql file.:
